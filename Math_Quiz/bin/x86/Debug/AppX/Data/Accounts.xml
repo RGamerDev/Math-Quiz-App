@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<accounts>
+  
+  <account>
+    <username>Richard</username>
+    <password>Berthold</password>
+    <results>
+      <result>
+        <percentage>50</percentage>
+        <competency>Fail</competency>
+      </result>
+      <result>
+        <percentage>80</percentage>
+        <competency>Pass</competency>
+      </result>
+      <result>
+        <percentage>30</percentage>
+        <competency>Fail</competency>
+      </result>
+      <result>
+        <percentage>100</percentage>
+        <competency>Pass</competency>
+      </result>
+    </results>
+  </account>
+
+  <account>
+    <username>Miance</username>
+    <password>Mulder</password>
+    <results>
+      <result>
+        <percentage>80</percentage>
+        <competency>Pass</competency>
+      </result>
+      <result>
+        <percentage>30</percentage>
+        <competency>Fail</competency>
+      </result>
+      <result>
+        <percentage>100</percentage>
+        <competency>Pass</competency>
+      </result>
+      <result>
+        <percentage>0</percentage>
+        <competency>Fail</competency>
+      </result>
+    </results>
+  </account>
+
+</accounts>

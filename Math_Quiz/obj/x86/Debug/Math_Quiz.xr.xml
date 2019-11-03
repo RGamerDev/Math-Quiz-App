@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="Loaded" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Children" />
+      <RootEvent Name="KeyUp" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="Name" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Header" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Spacing" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.SymbolIcon">
+      <RootProperty Name="Symbol" />
+    </RootType>
+    <RootType FullName="Math_Quiz.Pages.HubPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Header" />
+      <RootProperty Name="Text" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Math_Quiz.Pages.LoginPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="IsBackButtonVisible" />
+      <RootProperty Name="IsSettingsVisible" />
+      <RootProperty Name="PaneDisplayMode" />
+      <RootProperty Name="MenuItems" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
+      <RootMethod Name="GetAlignTopWithPanel" />
+      <RootMethod Name="SetAlignTopWithPanel" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItem">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Tag" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
+    <RootType FullName="Math_Quiz.Pages.MainPage" />
+    <RootType FullName="Math_Quiz.Pages.QuestionPage" />
+    <RootType FullName="Math_Quiz.Pages.RegisterPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Slider">
+      <RootProperty Name="Header" />
+      <RootProperty Name="Maximum" />
+      <RootProperty Name="Minimum" />
+      <RootProperty Name="StepFrequency" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Math_Quiz.Pages.SetupPage" />
+  </Roots.RootTypes>
+</Roots>
