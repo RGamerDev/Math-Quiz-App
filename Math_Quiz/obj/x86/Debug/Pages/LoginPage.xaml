@@ -9,7 +9,6 @@
     mc:Ignorable="d">
 
     <Grid x:ConnectionId='2'                   >
-
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
             <ColumnDefinition />

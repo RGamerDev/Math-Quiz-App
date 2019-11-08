@@ -9,18 +9,26 @@
       <result>
         <percentage>50</percentage>
         <competency>Fail</competency>
+        <grade>2</grade>
+        <difficulty>1</difficulty>
       </result>
       <result>
         <percentage>80</percentage>
         <competency>Pass</competency>
+        <grade>2</grade>
+        <difficulty>1</difficulty>
       </result>
       <result>
         <percentage>30</percentage>
         <competency>Fail</competency>
+        <grade>2</grade>
+        <difficulty>1</difficulty>
       </result>
       <result>
         <percentage>100</percentage>
         <competency>Pass</competency>
+        <grade>2</grade>
+        <difficulty>1</difficulty>
       </result>
     </results>
   </account>
@@ -32,18 +40,26 @@
       <result>
         <percentage>80</percentage>
         <competency>Pass</competency>
+        <grade>2</grade>
+        <difficulty>1</difficulty>
       </result>
       <result>
         <percentage>30</percentage>
         <competency>Fail</competency>
+        <grade>2</grade>
+        <difficulty>1</difficulty>
       </result>
       <result>
         <percentage>100</percentage>
         <competency>Pass</competency>
+        <grade>2</grade>
+        <difficulty>1</difficulty>
       </result>
       <result>
         <percentage>0</percentage>
         <competency>Fail</competency>
+        <grade>2</grade>
+        <difficulty>1</difficulty>
       </result>
     </results>
   </account>

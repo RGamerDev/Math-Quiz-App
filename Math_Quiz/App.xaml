@@ -2,5 +2,20 @@
     x:Class="Math_Quiz.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:Math_Quiz" />
+    xmlns:local="using:Math_Quiz">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary x:Key="Default">
+                <AcrylicBrush
+                    x:Key="CustomAcrylicBrush"
+                    BackgroundSource="Backdrop"
+                    FallbackColor="#FFFFFF00"
+                    TintColor="#FF000000"
+                    TintOpacity="0" />
+            </ResourceDictionary>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+
+
 

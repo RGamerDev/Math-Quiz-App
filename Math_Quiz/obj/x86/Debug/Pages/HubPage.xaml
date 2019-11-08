@@ -27,31 +27,45 @@
             FontSize="50"
                                   />
 
-        <ListView x:ConnectionId='3'
-            x:Name="ResultsView"
+
+        <StackPanel x:ConnectionId='3'
+            x:Name="List"
             Grid.Row="1"
-            Grid.Column="1"
-            HorizontalAlignment="Stretch"
-            VerticalAlignment="Stretch"
-                                          
-            Header="Previous Results"
-                                          >
-            <ListView.ItemTemplate>
-                <DataTemplate x:Name="Template"                          >
-                    <StackPanel x:ConnectionId='5' HorizontalAlignment="Stretch" Orientation="Horizontal">
-                        <SymbolIcon Symbol="Add" />
-                        <TextBlock x:ConnectionId='6'
-                            HorizontalAlignment="Center"
-                            FontSize="50"
-                                                       />
-                        <TextBlock x:ConnectionId='7'
-                            HorizontalAlignment="Right"
-                            FontSize="50"
-                                                       />
-                    </StackPanel>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+            Grid.ColumnSpan="3"
+            Spacing="20">
+            <TextBlock
+                HorizontalAlignment="Center"
+                FontSize="50"
+                Text="Previous results" />
+            <Grid HorizontalAlignment="Stretch">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <TextBlock
+                    Grid.Column="0"
+                    HorizontalAlignment="Center"
+                    FontSize="50"
+                    Text="Percentage" />
+                <TextBlock
+                    Grid.Column="1"
+                    HorizontalAlignment="Center"
+                    FontSize="50"
+                    Text="Competency" />
+                <TextBlock
+                    Grid.Column="2"
+                    HorizontalAlignment="Center"
+                    FontSize="50"
+                    Text="Grade" />
+                <TextBlock
+                    Grid.Column="3"
+                    HorizontalAlignment="Center"
+                    FontSize="50"
+                    Text="Difficulty" />
+            </Grid>
+        </StackPanel>
     </Grid>
 </Page>
 

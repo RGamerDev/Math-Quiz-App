@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\OneDrive - CTU Career\Modules\Second Semester\PRG512\SA\Math_Quiz\Math_Quiz\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-03T06:10:10.821</Modified>
+      <Modified>2019-11-07T12:44:01.796</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\OneDrive - CTU Career\Modules\Second Semester\PRG512\SA\Math_Quiz\Math_Quiz\bin\x86\Debug\Math_Quiz.exe">
       <PackagePath>entrypoint\Math_Quiz.exe</PackagePath>
-      <Modified>2019-11-03T06:10:10.412</Modified>
+      <Modified>2019-11-07T12:44:01.405</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\berth\.nuget\packages\microsoft.identity.client\4.5.1\lib\uap10.0\Microsoft.Identity.Client.dll">
       <PackagePath>Microsoft.Identity.Client.dll</PackagePath>
@@ -52,7 +52,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - CTU Career\Modules\Second Semester\PRG512\SA\Math_Quiz\Math_Quiz\Data\Accounts.xml">
       <PackagePath>Data\Accounts.xml</PackagePath>
-      <Modified>2019-11-03T06:00:31.965</Modified>
+      <Modified>2019-11-04T15:28:59.170</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - CTU Career\Modules\Second Semester\PRG512\SA\Math_Quiz\Math_Quiz\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -94,35 +94,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - CTU Career\Modules\Second Semester\PRG512\SA\Math_Quiz\Math_Quiz\bin\x86\Debug\Math_Quiz.xr.xml">
       <PackagePath>Math_Quiz.xr.xml</PackagePath>
-      <Modified>2019-11-03T05:54:26.569</Modified>
+      <Modified>2019-11-07T12:42:18.868</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - CTU Career\Modules\Second Semester\PRG512\SA\Math_Quiz\Math_Quiz\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-11-03T06:10:10.204</Modified>
+      <Modified>2019-11-07T12:44:01.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - CTU Career\Modules\Second Semester\PRG512\SA\Math_Quiz\Math_Quiz\bin\x86\Debug\Pages\HubPage.xbf">
       <PackagePath>Pages\HubPage.xbf</PackagePath>
-      <Modified>2019-11-03T06:10:10.205</Modified>
+      <Modified>2019-11-07T12:44:01.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - CTU Career\Modules\Second Semester\PRG512\SA\Math_Quiz\Math_Quiz\bin\x86\Debug\Pages\LoginPage.xbf">
       <PackagePath>Pages\LoginPage.xbf</PackagePath>
-      <Modified>2019-11-03T06:10:10.205</Modified>
+      <Modified>2019-11-07T12:44:01.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - CTU Career\Modules\Second Semester\PRG512\SA\Math_Quiz\Math_Quiz\bin\x86\Debug\Pages\MainPage.xbf">
       <PackagePath>Pages\MainPage.xbf</PackagePath>
-      <Modified>2019-11-03T06:10:10.205</Modified>
+      <Modified>2019-11-07T12:44:01.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - CTU Career\Modules\Second Semester\PRG512\SA\Math_Quiz\Math_Quiz\bin\x86\Debug\Pages\QuestionPage.xbf">
       <PackagePath>Pages\QuestionPage.xbf</PackagePath>
-      <Modified>2019-11-03T06:10:10.205</Modified>
+      <Modified>2019-11-07T12:44:01.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - CTU Career\Modules\Second Semester\PRG512\SA\Math_Quiz\Math_Quiz\bin\x86\Debug\Pages\RegisterPage.xbf">
       <PackagePath>Pages\RegisterPage.xbf</PackagePath>
-      <Modified>2019-11-03T06:10:10.206</Modified>
+      <Modified>2019-11-07T12:44:01.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - CTU Career\Modules\Second Semester\PRG512\SA\Math_Quiz\Math_Quiz\bin\x86\Debug\Pages\SetupPage.xbf">
       <PackagePath>Pages\SetupPage.xbf</PackagePath>
-      <Modified>2019-11-03T06:10:10.206</Modified>
+      <Modified>2019-11-07T12:44:01.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -130,11 +130,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - CTU Career\Modules\Second Semester\PRG512\SA\Math_Quiz\Math_Quiz\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-11-03T00:15:43.817</Modified>
+      <Modified>2019-11-04T02:24:44.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive - CTU Career\Modules\Second Semester\PRG512\SA\Math_Quiz\Math_Quiz\bin\x86\Debug\Core\Math_Quiz.exe">
       <PackagePath>Math_Quiz.exe</PackagePath>
-      <Modified>2019-11-03T06:10:10.817</Modified>
+      <Modified>2019-11-07T12:44:01.792</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

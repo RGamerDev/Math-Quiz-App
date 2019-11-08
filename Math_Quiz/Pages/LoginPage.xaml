@@ -9,7 +9,6 @@
     mc:Ignorable="d">
 
     <Grid KeyUp="Grid_KeyUp">
-
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
             <ColumnDefinition />

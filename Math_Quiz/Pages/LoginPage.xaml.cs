@@ -45,7 +45,7 @@ namespace Math_Quiz.Pages
         private async Task TryLogin()
         {
             Person p = new Person(tbxusr.Text, tbxPass.Text);
-            Repository rep = new Repository();
+            PeopleRepository rep = new PeopleRepository();
             if (rep.canLogin(p))
             {
                 SessionContext.username = tbxusr.Text;
@@ -70,6 +70,18 @@ namespace Math_Quiz.Pages
             if (e.Key == Windows.System.VirtualKey.Enter)
             {
                 await TryLogin();
+            }
+        }
+
+        private async void Grid_Loaded(object sender, RoutedEventArgs e)
+        {
+            using (SqlConnection con = new SqlConnection("Data Source=ANIMUS;Initial Catalog=MathApp;Integrated Security=True"))
+            {
+                con.Open();
+                if (con.State == ConnectionState.Open)
+                {
+                    await new MessageDialog($"Connection is {con.State.ToString()}").ShowAsync();
+                }
             }
         }
     }

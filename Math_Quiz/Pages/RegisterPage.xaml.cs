@@ -42,7 +42,7 @@ namespace Math_Quiz.Pages
 
         private async System.Threading.Tasks.Task TryRegister()
         {
-            Repository rep = new Repository();
+            PeopleRepository rep = new PeopleRepository();
 
             if (rep.canRegister(new Person(tbxusr.Text, tbxPass.Text)) && !string.IsNullOrEmpty(tbxusr.Text) && !string.IsNullOrEmpty(tbxPass.Text) && !string.IsNullOrEmpty(tbxconPass.Text))
             {

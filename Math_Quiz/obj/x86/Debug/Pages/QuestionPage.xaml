@@ -15,52 +15,112 @@
             <ColumnDefinition Width="2*" />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="5*" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
 
         <TextBlock x:ConnectionId='2'
-            Grid.ColumnSpan="2"
+            Name="txtQ"
+            Grid.ColumnSpan="3"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
             FontSize="50"
-                                           />
+            Text="Question" />
+
 
         <StackPanel
+            Grid.Row="2"
             Grid.Column="1"
             HorizontalAlignment="Stretch"
-            VerticalAlignment="Center">
-            <TextBlock
+            Orientation="Horizontal"
+            Spacing="50">
+
+            <Button x:ConnectionId='10'
+                x:Name="btnPrevious"
+                Grid.Row="2"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                                
+                Content="Previous"
+                FontSize="50"
+                Visibility="Collapsed" />
+
+            <Button x:ConnectionId='11'
+                x:Name="btnNext"
+                Grid.Row="2"
+                Grid.Column="2"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                            
+                Content="Next"
+                FontSize="50" />
+
+            <Button x:ConnectionId='12'
+                x:Name="btnFinish"
+                Grid.Row="2"
+                Grid.Column="2"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                              
+                Content="Finish"
+                FontSize="50"
+                Visibility="Collapsed" />
+            <Button x:ConnectionId='13'
+                x:Name="btnStop"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                            
+                Content="Stop"
+                FontSize="50" />
+        </StackPanel>
+
+        <TextBlock x:ConnectionId='3'
+            Name="Timer"
+            Grid.Column="2"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            FontSize="30"
+            Visibility="Collapsed" />
+
+        <StackPanel
+            Grid.RowSpan="3"
+            Grid.Column="1"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Center"
+            Spacing="50">
+            <TextBlock x:ConnectionId='4'
+                x:Name="Description"
                 HorizontalAlignment="Center"
                 FontSize="20"
-                Text="Questions" />
+                                                            />
+            <StackPanel x:ConnectionId='5'
+                x:Name="Values"
+                Margin="50"
+                Spacing="10">
+                <RadioButton x:ConnectionId='6'
+                    x:Name="A"
+                                     
+                    GroupName="Values" />
+                <RadioButton x:ConnectionId='7'
+                    x:Name="B"
+                                     
+                    GroupName="Values" />
+                <RadioButton x:ConnectionId='8'
+                    x:Name="C"
+                                     
+                    GroupName="Values" />
+                <RadioButton x:ConnectionId='9'
+                    x:Name="D"
+                                     
+                    GroupName="Values" />
+            </StackPanel>
 
 
         </StackPanel>
-
-        <Button x:ConnectionId='3'
-            x:Name="btnPrevious"
-            Grid.Column="0"
-            MinHeight="100"
-            HorizontalAlignment="Stretch"
-            VerticalAlignment="Bottom"
-                            
-            Content="Previous" />
-
-        <Button x:ConnectionId='4'
-            x:Name="btnNext"
-            Grid.Column="2"
-            MinHeight="100"
-            HorizontalAlignment="Stretch"
-            VerticalAlignment="Bottom"
-                        
-            Content="Next" />
-
-        <TextBlock x:ConnectionId='5'
-            Name="Timer"
-            Grid.Column="2"
-            HorizontalAlignment="Stretch"
-            VerticalAlignment="Top"
-            FontSize="30"
-                                  />
-
     </Grid>
 </Page>
 

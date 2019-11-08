@@ -32,7 +32,30 @@ namespace Math_Quiz.Pages
         public HubPage()
         {
             this.InitializeComponent();
-            Results = new Repository().GetPerson(new Person(SessionContext.username, SessionContext.password)).Results;
+            Results = new PeopleRepository().GetPerson(new Person(SessionContext.username, SessionContext.password)).Results;
+
+            foreach (Result result in Results)
+            {
+                Grid grid = new Grid();
+                for (int i = 0; i < 4; i++)
+                {
+                    grid.ColumnDefinitions.Add(new ColumnDefinition());
+                }
+
+                List<TextBlock> textBlocks = new List<TextBlock>();
+                textBlocks.Add(new TextBlock() { Text = result.Percentage, HorizontalAlignment = HorizontalAlignment.Center, FontSize = 20 });
+                textBlocks.Add(new TextBlock() { Text = result.Competency, HorizontalAlignment = HorizontalAlignment.Center, FontSize = 20 });
+                textBlocks.Add(new TextBlock() { Text = result.Grade, HorizontalAlignment = HorizontalAlignment.Center, FontSize = 20 });
+                textBlocks.Add(new TextBlock() { Text = result.Difficulty, HorizontalAlignment = HorizontalAlignment.Center, FontSize = 20 });
+
+                for (int i = 0; i < 4; i++)
+                {
+                    grid.Children.Add(textBlocks[i]);
+                    Grid.SetColumn(textBlocks[i], i);
+                }
+
+                List.Children.Add(grid);
+            }
         }
     }
 }

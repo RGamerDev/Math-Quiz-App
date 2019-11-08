@@ -15,51 +15,111 @@
             <ColumnDefinition Width="2*" />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="5*" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
 
         <TextBlock
-            Grid.ColumnSpan="2"
+            Name="txtQ"
+            Grid.ColumnSpan="3"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
             FontSize="50"
-            Text="{x:Bind QuestionNumber}" />
+            Text="Question" />
+
 
         <StackPanel
+            Grid.Row="2"
             Grid.Column="1"
             HorizontalAlignment="Stretch"
-            VerticalAlignment="Center">
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontSize="20"
-                Text="Questions" />
+            Orientation="Horizontal"
+            Spacing="50">
 
+            <Button
+                x:Name="btnPrevious"
+                Grid.Row="2"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                Click="Previous"
+                Content="Previous"
+                FontSize="50"
+                Visibility="Collapsed" />
 
+            <Button
+                x:Name="btnNext"
+                Grid.Row="2"
+                Grid.Column="2"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                Click="Next"
+                Content="Next"
+                FontSize="50" />
+
+            <Button
+                x:Name="btnFinish"
+                Grid.Row="2"
+                Grid.Column="2"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                Click="Finish"
+                Content="Finish"
+                FontSize="50"
+                Visibility="Collapsed" />
+            <Button
+                x:Name="btnStop"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                Click="Stop"
+                Content="Stop"
+                FontSize="50" />
         </StackPanel>
-
-        <Button
-            x:Name="btnPrevious"
-            Grid.Column="0"
-            MinHeight="100"
-            HorizontalAlignment="Stretch"
-            VerticalAlignment="Bottom"
-            Click="Previous"
-            Content="Previous" />
-
-        <Button
-            x:Name="btnNext"
-            Grid.Column="2"
-            MinHeight="100"
-            HorizontalAlignment="Stretch"
-            VerticalAlignment="Bottom"
-            Click="Next"
-            Content="Next" />
 
         <TextBlock
             Name="Timer"
             Grid.Column="2"
-            HorizontalAlignment="Stretch"
-            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
             FontSize="30"
-            Text="{x:Bind Timer}" />
+            Visibility="Collapsed" />
 
+        <StackPanel
+            Grid.RowSpan="3"
+            Grid.Column="1"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Center"
+            Spacing="50">
+            <TextBlock
+                x:Name="Description"
+                HorizontalAlignment="Center"
+                FontSize="20"
+                Text="{x:Bind CurrentQuestion.Description}" />
+            <StackPanel
+                x:Name="Values"
+                Margin="50"
+                Spacing="10">
+                <RadioButton
+                    x:Name="A"
+                    Checked="Checked"
+                    GroupName="Values" />
+                <RadioButton
+                    x:Name="B"
+                    Checked="Checked"
+                    GroupName="Values" />
+                <RadioButton
+                    x:Name="C"
+                    Checked="Checked"
+                    GroupName="Values" />
+                <RadioButton
+                    x:Name="D"
+                    Checked="Checked"
+                    GroupName="Values" />
+            </StackPanel>
+
+
+        </StackPanel>
     </Grid>
 </Page>

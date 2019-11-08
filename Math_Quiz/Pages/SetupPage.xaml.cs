@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Math_Quiz.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -47,12 +48,5 @@ namespace Math_Quiz.Pages
                     NumberOfQuestions = NumQ.Visibility == Visibility.Visible ? (int)NumQ.Value : -1 
                 });
         }
-    }
-
-    class Options
-    {
-        public int Grade { get; set; }
-        public int Difficulty { get; set; }
-        public int NumberOfQuestions { get; set; }
     }
 }
