@@ -118,8 +118,6 @@
                     Checked="Checked"
                     GroupName="Values" />
             </StackPanel>
-
-
         </StackPanel>
     </Grid>
 </Page>

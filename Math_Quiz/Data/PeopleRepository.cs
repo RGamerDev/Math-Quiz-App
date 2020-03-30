@@ -58,10 +58,5 @@ namespace Math_Quiz.Data
 
             xdoc.Save(Xmlfilepath);
         }
-
-        public void AddResult()
-        {
-
-        }
     }
 }

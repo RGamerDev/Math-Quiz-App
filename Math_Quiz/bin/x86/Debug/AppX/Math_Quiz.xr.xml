@@ -23,7 +23,6 @@
       <RootProperty Name="Children" />
       <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="KeyUp" />
-      <RootEvent Name="Loaded" />
       <RootMethod Name="GetColumnSpan" />
       <RootMethod Name="SetColumnSpan" />
       <RootMethod Name="GetRow" />
